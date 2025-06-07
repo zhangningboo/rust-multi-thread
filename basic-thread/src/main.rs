@@ -28,7 +28,7 @@ fn main() {
     };
     println!("Sum of numbers: {}", res);
 
-    let t4 = std::thread::Builder::new()
+    let _t4 = std::thread::Builder::new()
         .name("my thread".to_string())
         .spawn(f)
         .unwrap()
